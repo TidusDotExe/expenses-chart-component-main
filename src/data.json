@@ -1,0 +1,37 @@
+[
+  {
+    "day": 1,
+    "fullDay": "mon",
+    "amount": 17.45
+  },
+  {
+    "day": 2,
+    "fullDay": "tue",
+    "amount": 34.91
+  },
+  {
+    "day": 3,
+    "fullDay": "wed",
+    "amount": 52.36
+  },
+  {
+    "day": 4,
+    "fullDay": "thu",
+    "amount": 31.07
+  },
+  {
+    "day": 5,
+    "fullDay": "fri",
+    "amount": 23.39
+  },
+  {
+    "day": 6,
+    "fullDay": "sat",
+    "amount": 43.28
+  },
+  {
+    "day": 7,
+    "fullDay": "sun",
+    "amount": 25.48
+  }
+]
