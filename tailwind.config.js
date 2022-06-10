@@ -17,6 +17,7 @@ module.exports = {
         "sans": ["DM Sans", "sans"]
       },
       gridTemplateRows: {
+        "110": "repeat(110, 1fr)",
         "100": "repeat(100, 1fr)",
         "40": "repeat(40, 1fr)",
         "60": "repeat(60, 1fr)",

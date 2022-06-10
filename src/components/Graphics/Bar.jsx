@@ -8,7 +8,7 @@ export default function Bar({ today, percentage, fullDay, amount }) {
                 style={{ gridRowStart: barStart, gridRowEnd: 100 }}
             />
             <span className="text-center text-2xs text-medium-brown" style={{ gridRowStart: 101, gridRowEnd: 101}}>{fullDay}</span>
-            <span className="text-center text-2xs text-medium-brown" style={{ gridRowStart: barStart - 1, gridRowEnd: barStart - 1}}>{amount}</span>
+            <span className="text-2xs text-medium-brown flex" style={{ gridRowStart: barStart - 1, gridRowEnd: barStart - 1}}>{amount}</span>
         </>
     )
 }
