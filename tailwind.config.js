@@ -25,10 +25,11 @@ module.exports = {
         "30": "repeat(30, 1fr)",
       },
       gridRowEnd: {
-        "101": "101"
+        "101": "101",
       },
       height: {
-        '30': "30vh"
+        '30': "30vh",
+        "50": "50vh",
       },
       fontSize: {
         "2xs": "0.5rem"
