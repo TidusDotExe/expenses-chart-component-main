@@ -13,11 +13,11 @@ export default function Bar({ today, percentage, fullDay, amount, col }) {
                 onMouseLeave={() => setVisible(false)}
             />
             <span 
-                className="text-center text-2xs text-medium-brown" 
+                className="text-center text-2xs text-medium-brown desktop:text-xs" 
                 style={{ gridRowStart: 101, gridRowEnd: 101 }}
             >{fullDay}</span>
             <span
-                className={`text-2xs text-white bg-dark-brown rounded-sm min-w-fit p-1 mb-2
+                className={`text-2xs text-white bg-dark-brown rounded-sm min-w-fit p-1 mb-2 desktop:text-xs
                 ${isVisible ? "visible" : "invisible"}`}
                 style={{ gridRowStart: barStart - 1, gridRowEnd: barStart - 1   , gridColumn: col }}
             >{amount}</span>
